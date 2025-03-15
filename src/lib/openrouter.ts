@@ -376,7 +376,7 @@ export async function getAIResponse(message: string) {
       'X-Title': 'AI Knowledge Assistant',
     },
     body: JSON.stringify({
-      model: 'deepseek/deepseek-r1:free',
+      model: 'deepseek/deepseek-r1-distill-llama-70b',
       messages: [
         {
           role: 'system',
